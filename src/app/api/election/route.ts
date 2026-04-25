@@ -1,4 +1,4 @@
-import { NextResponse } from 'next';
+import { NextResponse } from 'next/server';
 
 // Required for ISR: Set how often the static data should be regenerated (in seconds)
 // This strictly fulfills the "Incremental Static Regeneration (ISR) to cache state-wide election data" evaluation criteria.
